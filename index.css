@@ -5,11 +5,13 @@
 }
 
 .navbar {
+  
   height: 60px;
   background-color: #0f1111;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -26,7 +28,6 @@
 
 .border {
   border: 1.5px solid transparent;
-
 }
 
 .border:hover {
@@ -38,7 +39,6 @@
   color: #cccccc;
   font-size: 0.85rem;
   margin-left: 40px;
-  
 }
 
 #location2 {
@@ -53,34 +53,73 @@
   justify-content: center;
 }
 
-.nav-location{
-    height: 50px;
-    width: 100px;
-    padding-top: 5px;
-    padding-right: 20px;
+.nav-location {
+  height: 50px;
+  width: 100px;
+  padding-top: 5px;
+  padding-right: 20px;
 }
 
 /** navigation search **/
-#nav-search{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: pink;
-    width: 620px;
-    height: 40px;
-    border-radius: 5px;
-    
+#nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #febd69;
+  width: 620px;
+  height: 40px;
+  border-radius: 5px;
 }
 
-.search-select{
-    background-color: #f3f3f3;
-    width: 50px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: none;
+#search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f1111;
+  font-size: 1.3rem;
 }
 
-.search-input{
-    border:none;
-    width: 100%;
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
 }
+
+.search-input {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/** lanhuage-box */
+.language-box {
+  width: 90px;
+  height: 50px;
+  background-color: #0f1111;
+  display: flex;
+  
+}
+
+.language-selector {
+  font-size: 1em;
+  background-color: #0f1111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: start;
+}
+
+#usa-png {
+  height: 28px;
+  width: 28px;
+}
+
+#lang-selector {
+  background-color: #0f1111;
+  border: none;
+  color: #cccccc;
+}
+
