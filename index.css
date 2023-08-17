@@ -101,6 +101,17 @@
 }
 
 /** lanhuage-box */
+#usa-png {
+  height: 28px;
+  width: 28px;
+}
+
+#lang-selector {
+  background-color: #0f1111;
+  border: none;
+  color: #cccccc;
+}
+
 .language-box {
   width: 90px;
   height: 50px;
@@ -117,13 +128,4 @@
   align-content: start;
 }
 
-#usa-png {
-  height: 28px;
-  width: 28px;
-}
 
-#lang-selector {
-  background-color: #0f1111;
-  border: none;
-  color: #cccccc;
-}
