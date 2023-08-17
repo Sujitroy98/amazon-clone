@@ -4,8 +4,15 @@
   border: border-box;
 }
 
+.line1 {
+  font-size: 12px;
+}
+
+.line2 {
+  font-size: 14px;
+}
+
 .navbar {
-  
   height: 60px;
   background-color: #0f1111;
   color: white;
@@ -28,6 +35,7 @@
 
 .border {
   border: 1.5px solid transparent;
+  border-radius: 2%;
 }
 
 .border:hover {
@@ -37,12 +45,10 @@
 /** navbar location **/
 #location1 {
   color: #cccccc;
-  font-size: 0.85rem;
   margin-left: 40px;
 }
 
 #location2 {
-  font-size: 1rem;
   font-weight: 500;
   margin-left: 3px;
 }
@@ -100,7 +106,6 @@
   height: 50px;
   background-color: #0f1111;
   display: flex;
-  
 }
 
 .language-selector {
@@ -122,4 +127,3 @@
   border: none;
   color: #cccccc;
 }
-
