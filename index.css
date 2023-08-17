@@ -42,7 +42,7 @@
   border: 1.5px solid white;
 }
 
-/** navbar location **/
+/** navbar delivery location **/
 #location1 {
   color: #cccccc;
   margin-left: 40px;
@@ -71,7 +71,7 @@
   display: flex;
   justify-content: space-evenly;
   background-color: #febd69;
-  width: 620px;
+  width: 800px;
   height: 40px;
   border-radius: 5px;
 }
@@ -100,6 +100,10 @@
   font-size: 1rem;
 }
 
+#nav-search:hover {
+  border: 2px solid orange;
+}
+
 /** lanhuage-box */
 #usa-png {
   height: 28px;
@@ -123,9 +127,77 @@
   font-size: 1em;
   background-color: #0f1111;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  align-content: start;
+}
+
+/** sign-in box **/
+
+.nav-signin {
+  height: 50px;
+  width: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.signin-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  justify-content: center;
+  align-items: start;
+}
+
+#signin-selector {
+  background-color: #0f1111;
+  border: none;
+  color: #cccccc;
+}
+
+/** returns & orders **/
+.nav-returnOrders {
+  height: 50px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.returnOrders {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  justify-content: center;
+}
+
+/** cart */
+.nav-cart i {
+  font-size: 30px;
+}
+
+/** panel-header **/
+.panel{
+  height:40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: start;
+}
+
+.panel-options{
+  width: 80%;
+}
+
+.panel-options p{
+  display: inline;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.panel-deals{
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 
