@@ -43,7 +43,6 @@
   border: 1.5px solid white;
 }
 
-
 /** navbar delivery location **/
 #location1 {
   color: #cccccc;
@@ -161,7 +160,6 @@
   background-color: #0f1111;
   border: none;
   color: #cccccc;
-  
 }
 
 /** returns & orders **/
@@ -191,17 +189,16 @@
   align-items: center;
   margin-right: 8px;
   padding: 5px;
-
 }
 .nav-cart i {
-  text-align:center;
+  text-align: center;
   font-size: 1.875rem;
-  
 }
 
 /** panel-header **/
 .panel {
   height: 40px;
+  width: 1024px;
   background-color: #222f3d;
   display: flex;
   color: white;
@@ -209,8 +206,13 @@
   justify-content: start;
 }
 
+.panel-all {
+  width: 50px;
+  margin-left: 20px;
+}
+
 .panel-options {
-  width: 80%;
+  width: 100%;
 }
 
 .panel-options p {
@@ -222,6 +224,8 @@
 .panel-deals {
   font-size: 0.9rem;
   font-weight: 700;
+  width: 240px;
+  margin-right: 8px;
 }
 
 /** hero-section **/
@@ -351,9 +355,17 @@ ul a {
 
 /** responsive controls **/
 
-@media(min-width:1025px) and (max-width:2560px){
-  .navbar{ width: 100%;}
-  #nav-search{width: 100%;}
-  #search-icon {width: 45px};
-  
+@media (min-width: 1025px) and (max-width: 2560px) {
+  .navbar {
+    width: 100%;
+  }
+  #nav-search {
+    width: 100%;
+  }
+  #search-icon {
+    width: 45px;
+  }
+  .panel {
+    width: 100%;
+  }
 }
