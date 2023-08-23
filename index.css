@@ -43,6 +43,7 @@
   border: 1.5px solid white;
 }
 
+
 /** navbar delivery location **/
 #location1 {
   color: #cccccc;
@@ -160,6 +161,7 @@
   background-color: #0f1111;
   border: none;
   color: #cccccc;
+  
 }
 
 /** returns & orders **/
@@ -189,10 +191,12 @@
   align-items: center;
   margin-right: 8px;
   padding: 5px;
+
 }
 .nav-cart i {
-  text-align: center;
+  text-align:center;
   font-size: 1.875rem;
+  
 }
 
 /** panel-header **/
@@ -206,7 +210,7 @@
   justify-content: start;
 }
 
-.panel-all {
+.panel-all{
   width: 50px;
   margin-left: 20px;
 }
@@ -232,6 +236,7 @@
 .hero-section {
   background-image: url("Amazon Clone (Resources)/hero_image.jpg");
   height: 300px;
+  width: 1024px;
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -257,14 +262,14 @@
 /**shop-section**/
 .shop-section {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: space-evenly;
   background-color: hsl(145, 29%, 90%);
 }
 
 .box {
   height: 420px;
-  width: 23%;
+  width: 282px;
   font-size: 0.875rem;
   background-color: white;
   color: #0f1111;
@@ -355,17 +360,36 @@ ul a {
 
 /** responsive controls **/
 
-@media (min-width: 1025px) and (max-width: 2560px) {
-  .navbar {
-    width: 100%;
-  }
-  #nav-search {
-    width: 100%;
-  }
-  #search-icon {
-    width: 45px;
-  }
-  .panel {
-    width: 100%;
-  }
+@media only screen and (min-width:1024.2px){
+  .navbar{width: 100%;}
+  #nav-search{width: 100%;}
+  #search-icon{width: 45px;}
+  .panel{width: 100%;}
+ .hero-section{width: 100%}
+}
+
+@media(min-width:1500px){
+  .shop-section{width: 1500px;}
+  .shop-section{margin:auto;}
+  .hero-section{width:1500px;}
+  .hero-section{margin:auto;}
+}
+
+@media(max-width:1024px){
+  .box{width:330px;}
+  .shop-section{width: 1024px;}
+  .foot-panel1{width: 1024px;}
+  .foot-panel2{width: 1024px;}
+  .foot-panel3{width: 1024px;}
+  .foot-panel4{width: 1024px;}
+}
+
+@media(min-width:1024.2px){
+  .box{flex-grow: 1.2;}
+  .box{width: 330px;}
+}
+
+@media(min-width:1260.2px){
+  .box9{display: none;}
+
 }
